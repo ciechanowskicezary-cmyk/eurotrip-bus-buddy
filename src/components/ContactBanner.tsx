@@ -1,4 +1,5 @@
-import { Phone, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Phone, Mail, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const ContactBanner = () => (
