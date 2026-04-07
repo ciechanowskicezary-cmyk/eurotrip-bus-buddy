@@ -8,6 +8,7 @@ const navItems = [
   { label: "Wyjazdy wakacyjne", path: "/wyjazdy-wakacyjne" },
   { label: "Transfery lotniskowe", path: "/transfery-lotniskowe" },
   { label: "Wynajem z kierowcą", path: "/wynajem-z-kierowca" },
+  { label: "Kontakt", path: "/kontakt" },
 ];
 
 const Navbar = () => {
