@@ -1,4 +1,5 @@
-import { Phone, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Phone, Mail, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const ContactBanner = () => (
@@ -15,12 +16,12 @@ const ContactBanner = () => (
             606 988 383
           </Button>
         </a>
-        <a href="mailto:twojtransporter@gmail.com">
+        <Link to="/kontakt">
           <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-heading font-semibold px-8 py-6 rounded-lg">
-            <Mail className="w-5 h-5 mr-2" />
-            Napisz do nas
+            <FileText className="w-5 h-5 mr-2" />
+            Formularz kontaktowy
           </Button>
-        </a>
+        </Link>
       </div>
     </div>
   </section>
