@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import ContactBanner from "@/components/ContactBanner";
 import FleetSection from "@/components/FleetSection";
 import SEO from "@/components/SEO";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import driverImg from "@/assets/driver-service.jpg";
 import { UserCheck, Clock, Route, Star, Headphones, Car } from "lucide-react";
 
@@ -63,6 +64,7 @@ const DriverRental = () => (
         },
       ]}
     />
+    <Breadcrumbs items={[{ label: "Wynajem z kierowcą" }]} />
 
     <HeroSection
       title="Wynajem busa z kierowcą — 8 i 9 osób"
