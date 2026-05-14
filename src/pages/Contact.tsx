@@ -1,5 +1,6 @@
 import ContactForm from "@/components/ContactForm";
 import SEO from "@/components/SEO";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { Phone, Mail } from "lucide-react";
 
 const Contact = () => (

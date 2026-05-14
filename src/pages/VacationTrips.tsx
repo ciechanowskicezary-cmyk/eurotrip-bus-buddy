@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import ContactBanner from "@/components/ContactBanner";
 import FleetSection from "@/components/FleetSection";
 import SEO from "@/components/SEO";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import vacationImg from "@/assets/vacation-trip.jpg";
 import { MapPin, Calendar, Users, Shield, Sun, Luggage } from "lucide-react";
 

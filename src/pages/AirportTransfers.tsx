@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import HeroSection from "@/components/HeroSection";
 import ContactBanner from "@/components/ContactBanner";
 import SEO from "@/components/SEO";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import airportImg from "@/assets/airport-transfer.jpg";
 import { Clock, Plane, CreditCard, MapPin, ShieldCheck, Users } from "lucide-react";
 
