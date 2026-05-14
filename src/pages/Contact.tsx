@@ -1,10 +1,14 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
+import SEO from "@/components/SEO";
 import { Phone, Mail } from "lucide-react";
 
 const Contact = () => (
   <>
+    <SEO
+      title="Kontakt — Wynajem busa | TwojTransporter.pl"
+      description="Skontaktuj się z TwojTransporter.pl. Telefon: 606 988 383, e-mail: twojtransporter@gmail.com. Wynajem busów 8 i 9 osobowych — wyceny, rezerwacje, pytania."
+      path="/kontakt"
+    />
     <section className="section-gradient py-20">
       <div className="container">
         <h1 className="font-heading font-extrabold text-4xl md:text-5xl text-center mb-4 text-foreground">Skontaktuj się z nami</h1>
