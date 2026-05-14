@@ -64,6 +64,7 @@ const DriverRental = () => (
         },
       ]}
     />
+    <Breadcrumbs items={[{ label: "Wynajem z kierowcą" }]} />
 
     <HeroSection
       title="Wynajem busa z kierowcą — 8 i 9 osób"

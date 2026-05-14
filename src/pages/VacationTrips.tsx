@@ -61,6 +61,7 @@ const VacationTrips = () => (
         },
       ]}
     />
+    <Breadcrumbs items={[{ label: "Wyjazdy wakacyjne" }]} />
 
     <HeroSection
       title="Wynajem busa na wakacje w Europie"

@@ -71,6 +71,7 @@ const AirportTransfers = () => (
         },
       ]}
     />
+    <Breadcrumbs items={[{ label: "Transfery lotniskowe" }]} />
 
     <HeroSection
       title="Transfery lotniskowe busem 8 i 9 osobowym"
