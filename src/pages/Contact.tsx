@@ -6,8 +6,8 @@ import { Phone, Mail } from "lucide-react";
 const Contact = () => (
   <>
     <SEO
-      title="Kontakt — Wynajem busa | TwojTransporter.pl"
-      description="Skontaktuj się z TwojTransporter.pl. Telefon: 606 988 383, e-mail: twojtransporter@gmail.com. Wynajem busów 8 i 9 osobowych — wyceny, rezerwacje, pytania."
+      title="Kontakt — Wynajem busa Łódź | TwojTransporter.pl"
+      description="Skontaktuj się z TwojTransporter.pl Łódź. Telefon: 606 988 383, e-mail: twojtransporter@gmail.com. Wynajem busów 8 i 9 osobowych — wyceny, rezerwacje, pytania."
       path="/kontakt"
     />
     <Breadcrumbs items={[{ label: "Kontakt" }]} />

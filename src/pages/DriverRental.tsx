@@ -41,16 +41,16 @@ const faqs = [
 const DriverRental = () => (
   <>
     <SEO
-      title="Wynajem busa z kierowcą 8/9 osób — wesela, eventy | TwojTransporter.pl"
-      description="Wynajem busa z kierowcą — komfort i bezpieczeństwo dla Twojej grupy. Wesela, wycieczki, transfery, wyjazdy biznesowe. Opel Vivaro, Renault Trafic, Ford Tourneo. Tel. 606 988 383."
+      title="Wynajem busa z kierowcą 8/9 osób Łódź — wesela, eventy | TwojTransporter.pl"
+      description="Wynajem busa z kierowcą Łódź i okolice — komfort i bezpieczeństwo dla Twojej grupy. Wesela, wycieczki, transfery, wyjazdy biznesowe. Opel Vivaro, Renault Trafic, Ford Tourneo. Tel. 606 988 383."
       path="/wynajem-z-kierowca"
       jsonLd={[
         {
           "@context": "https://schema.org",
           "@type": "Service",
           name: "Wynajem busa z kierowcą",
-          provider: { "@type": "LocalBusiness", name: "TwojTransporter.pl", telephone: "+48606988383" },
-          areaServed: ["Poland", "Europe"],
+          provider: { "@type": "LocalBusiness", name: "TwojTransporter.pl", telephone: "+48606988383", address: { "@type": "PostalAddress", "addressLocality": "Łódź", "addressCountry": "PL" } },
+          areaServed: [{ "@type": "City", "name": "Łódź" }, { "@type": "AdministrativeArea", "name": "województwo łódzkie" }, "Poland", "Europe"],
           serviceType: "Wynajem busa z kierowcą",
         },
         {

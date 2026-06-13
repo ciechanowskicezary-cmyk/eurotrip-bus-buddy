@@ -13,8 +13,8 @@ import driverImg from "@/assets/driver-service.jpg";
 const Index = () => (
   <>
     <SEO
-      title="Wynajem busa 8 i 9 osobowego — TwojTransporter.pl"
-      description="Profesjonalny wynajem busów 8 i 9 osobowych z kierowcą i bez. Wyjazdy wakacyjne po Europie, transfery lotniskowe. Opel Vivaro, Renault Trafic, Ford Tourneo. Tel. 606 988 383."
+      title="Wynajem busa 8 i 9 osobowego Łódź — TwojTransporter.pl"
+      description="Profesjonalny wynajem busów 8 i 9 osobowych z kierowcą i bez Łódź i okolice. Wyjazdy wakacyjne po Europie, transfery lotniskowe. Opel Vivaro, Renault Trafic, Ford Tourneo. Tel. 606 988 383."
       path="/"
       jsonLd={{
         "@context": "https://schema.org",
