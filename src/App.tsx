@@ -10,6 +10,8 @@ import Index from "./pages/Index";
 import VacationTrips from "./pages/VacationTrips";
 import AirportTransfers from "./pages/AirportTransfers";
 import DriverRental from "./pages/DriverRental";
+import CityPage from "./pages/CityPage";
+import { cities } from "./data/cities";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +30,9 @@ const App = () => (
             <Route path="/transfery-lotniskowe" element={<AirportTransfers />} />
             <Route path="/wynajem-z-kierowca" element={<DriverRental />} />
             <Route path="/kontakt" element={<Contact />} />
+            {cities.map((c) => (
+              <Route key={c.slug} path={`/${c.slug}`} element={<CityPage city={c} />} />
+            ))}
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
