@@ -10,6 +10,8 @@ import Index from "./pages/Index";
 import VacationTrips from "./pages/VacationTrips";
 import AirportTransfers from "./pages/AirportTransfers";
 import DriverRental from "./pages/DriverRental";
+import CityPage from "./pages/CityPage";
+import { cities } from "./data/cities";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
