@@ -38,16 +38,16 @@ const faqs = [
 const VacationTrips = () => (
   <>
     <SEO
-      title="Wynajem busa na wakacje w Europie — wyjazdy 8/9 osób | TwojTransporter.pl"
-      description="Wynajem busa 8 i 9 osobowego na wyjazdy wakacyjne po Europie. Morze, góry, miasta — komfort dla rodziny i grupy znajomych. Sprawdź ofertę i zarezerwuj termin."
+      title="Wynajem busa na wakacje w Europie Łódź — wyjazdy 8/9 osób | TwojTransporter.pl"
+      description="Wynajem busa 8 i 9 osobowego na wyjazdy wakacyjne po Europie Łódź i okolice. Morze, góry, miasta — komfort dla rodziny i grupy znajomych. Sprawdź ofertę i zarezerwuj termin."
       path="/wyjazdy-wakacyjne"
       jsonLd={[
         {
           "@context": "https://schema.org",
           "@type": "Service",
           name: "Wynajem busa na wyjazdy wakacyjne po Europie",
-          provider: { "@type": "LocalBusiness", name: "TwojTransporter.pl", telephone: "+48606988383" },
-          areaServed: "Europe",
+          provider: { "@type": "LocalBusiness", name: "TwojTransporter.pl", telephone: "+48606988383", address: { "@type": "PostalAddress", "addressLocality": "Łódź", "addressCountry": "PL" } },
+          areaServed: [{ "@type": "City", "name": "Łódź" }, { "@type": "AdministrativeArea", "name": "województwo łódzkie" }, "Europe"],
           serviceType: "Wynajem busa 8/9 osobowego",
         },
         {

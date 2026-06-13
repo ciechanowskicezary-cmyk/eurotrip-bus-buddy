@@ -48,16 +48,16 @@ const faqs = [
 const AirportTransfers = () => (
   <>
     <SEO
-      title="Transfery lotniskowe busem 8/9 osób — punktualnie | TwojTransporter.pl"
-      description="Transfery lotniskowe busem 8 i 9 osobowym. Punktualny przewóz na lotniska w Polsce i Europie, monitorowanie lotów, stała cena. Zarezerwuj: 606 988 383."
+      title="Transfery lotniskowe busem 8/9 osób Łódź — punktualnie | TwojTransporter.pl"
+      description="Transfery lotniskowe busem 8 i 9 osobowym Łódź i okolice. Punktualny przewóz na lotniska w Polsce i Europie, monitorowanie lotów, stała cena. Zarezerwuj: 606 988 383."
       path="/transfery-lotniskowe"
       jsonLd={[
         {
           "@context": "https://schema.org",
           "@type": "Service",
           name: "Transfery lotniskowe busem",
-          provider: { "@type": "LocalBusiness", name: "TwojTransporter.pl", telephone: "+48606988383" },
-          areaServed: ["Poland", "Europe"],
+          provider: { "@type": "LocalBusiness", name: "TwojTransporter.pl", telephone: "+48606988383", address: { "@type": "PostalAddress", "addressLocality": "Łódź", "addressCountry": "PL" } },
+          areaServed: [{ "@type": "City", "name": "Łódź" }, { "@type": "AdministrativeArea", "name": "województwo łódzkie" }, "Poland", "Europe"],
           serviceType: "Transfer lotniskowy",
         },
         {
